@@ -30,5 +30,5 @@ jobs:
       - name: print pwd
         run: pwd
       - name: PowerShell Step
-        run: .\caller_workflow\scripts\hello-world.ps1
+        run: ./scripts/hello-world.ps1
      
