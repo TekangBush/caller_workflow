@@ -1,1 +1,1 @@
-Write-Host "Hellow world I dearly love my Jesus"
+Write-Host "Hello World I dearly love my Jesus"
