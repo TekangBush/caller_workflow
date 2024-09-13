@@ -28,5 +28,5 @@ jobs:
       - name: print pwd
         run: pwd
       - name: PowerShell Step
-        run: Get-ChildItem
+        run: Get-ChildItem -Path D:\a\caller_workflow\caller_workflow -Recurse
         shell: pwsh
