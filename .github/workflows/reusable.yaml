@@ -4,6 +4,12 @@ run-name: print_username
 
 on:
   workflow_dispatch: 
+    inputs:
+        username:
+          description: 'A username passed from the caller workflow'
+          default: 'john-doe'
+          required: false
+          type: string
   workflow_call:
     inputs:
       username:
