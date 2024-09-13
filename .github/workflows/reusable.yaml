@@ -27,4 +27,4 @@ jobs:
         run: echo The username is ${{ inputs.username }}
       - name: PowerShell Step
         run: |
-          ./hello-world.ps1
+          dir .
