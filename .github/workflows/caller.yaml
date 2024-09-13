@@ -1,0 +1,12 @@
+name: Caller Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-reusable-workflow:
+    uses: ./.github/workflows/reusable.yaml
+    with:
+      username: 'alice-wonderland'
