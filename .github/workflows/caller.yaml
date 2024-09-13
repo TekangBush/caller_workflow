@@ -1,5 +1,5 @@
 name: Caller Workflow
-run-name: Call_name
+run-name: Triggered by @${{ github.actor }}
 
 on:
   push:
