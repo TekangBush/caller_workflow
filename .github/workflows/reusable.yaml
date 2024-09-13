@@ -1,7 +1,9 @@
 name: Reusable Workflow
 run-name: print_username
 
+
 on:
+  workflow_dispatch: 
   workflow_call:
     inputs:
       username:
