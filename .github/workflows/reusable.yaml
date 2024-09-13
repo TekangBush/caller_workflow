@@ -27,4 +27,4 @@ jobs:
         run: echo The username is ${{ inputs.username }}
       - name: PowerShell Step
         run: |
-          ./caller_workflow/scripts/hello-world.ps1
+          ./hello-world.ps1
