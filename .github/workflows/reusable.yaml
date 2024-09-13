@@ -23,6 +23,8 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - name: checkout step
+        run: actions/checkout@v4
       - name: Print the input name to STDOUT
         run: echo The username is ${{ inputs.username }}
       - name: print pwd
